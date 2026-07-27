@@ -7,7 +7,10 @@ https://jcodeorg.github.io
 
 1. 新しいリポジトリを作成する
 
-GitHubで「New repository」を押し、名前を yourname.github.io にする。公開設定（Public）とする。
+GitHubで「New repository」を押し、
+名前を yourname.github.io にする。
+readme.md を作成する
+公開設定（Public）とする。
 
 2.index.html を作成する
 
