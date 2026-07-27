@@ -3,23 +3,36 @@ https://jcodeorg.github.io
 
 手順
 
-※ 「yourname」を自分のユーザー名に変更してください。
 
-1. 新しいリポジトリを作成する
 
-GitHubで「New repository」を押し、
-名前を yourname.github.io にする。
-readme.md を作成する
-公開設定（Public）とする。
+## 1. 新しいリポジトリを作成する
 
-2.index.html を作成する
+GitHubで「New repository」をクリックし、次の設定を行う。
++ Repository name（レポジトリ名）： yourname.github.io と入力する  
+※「yourname」部分は 自分の GitHub ユーザー名に置き換えてください。
++ Choose visibility（公開設定）：Public（公開） を選択する
++ Add README（README.md の作成）：On にする
 
-ホームページのトップになる index.html を新規作成し、必要なHTMLを書き込む。
+## 2.index.html を作成する
 
-3. コミットする
+ホームページのトップページとなる index.html を新規作成し、次の最小構成の HTML を書き込む。
+```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>テスト</title>
+</head>
+<body>
+  テスト
+</body>
+</html>
+```
+
+## 3. コミットする
 
 変更をコミットし、必要であれば GitHubへプッシュする。
 
-5. 公開URLを確認する
+## 4. 公開URLを確認する
 
 https://yourname.github.io にアクセスし、index.html がWebページとして公開されていることを確認する。
