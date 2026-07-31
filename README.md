@@ -36,3 +36,5 @@ GitHubで「New repository」をクリックし、次の設定を行う。
 ## 4. 公開URLを確認する
 
 https://yourname.github.io にアクセスし、index.html がWebページとして公開されていることを確認する。
+
+※「yourname」部分は 自分の GitHub ユーザー名に置き換えます。例： https://jcodeorg.github.io
